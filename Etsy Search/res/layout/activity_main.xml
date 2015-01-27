@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/etsy_search_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:background="@color/orange" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_load_more"
+        style="?android:attr/progressBarStyleSmallTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/empty"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/orange"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/listing_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progress_bar_load_more"
+        android:layout_below="@+id/toolbar"
+        android:background="@drawable/white" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@drawable/white"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/no_results"
+        android:textColor="@color/orange" />
+
+</RelativeLayout>

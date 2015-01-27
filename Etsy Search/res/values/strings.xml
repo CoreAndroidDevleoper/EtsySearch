@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Etsy Search</string>
+    <string name="tsy_search">tsy Search</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Enter item to search</string>
+    <string name="action_search">Search</string>
+    <string name="price">Price</string>
+    <string name="seller">Seller</string>
+    <string name="available">Available</string>
+    <string name="no_results">No Results</string>
+    <string name="searching">Searching ...</string>
+    <string name="no_data">The internet connection appears to be offline.</string>
+    <string name="loading">Page Loading... Please wait</string>
+
+</resources>

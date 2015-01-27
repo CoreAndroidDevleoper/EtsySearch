@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sort_order">
+        <item>Sort by Relevency</item>
+        <item>Sort by Highest Price</item>
+        <item>Sort by Lowest Price</item>
+        <item>Sort by Most Recent</item>
+    </string-array>
+
+</resources>
